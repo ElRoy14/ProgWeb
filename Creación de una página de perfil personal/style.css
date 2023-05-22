@@ -1,0 +1,92 @@
+body{
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Quicksand', sans-serif;
+    color: #FFFFFF;
+}
+.fondo{
+    background: url(imagenes/moon.jpg);
+}
+.bloque-titulo{
+    display: grid;
+    justify-content: center;
+    padding: 20px 0;
+}
+.bloque-titulo ul{
+    padding-inline-start: 0;
+    margin-top: 0.2em;
+    margin: 0 auto;
+}
+.bloque-titulo li{
+    display: inline;
+}
+.imagen{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+    margin: 0 auto;
+    object-fit: cover;
+}
+.titulo-principal{
+    font-size: 2.5em;
+    font-weight: bold;
+    margin-bottom: 0.2em;
+    color:white;
+}
+.redes {
+    color: black;
+    width: 50px;
+    font-weight: bold;
+    margin: 0 10px 0 10px;
+    text-decoration: none;
+}
+.redes:hover{
+    transform: scale(1.2);
+}
+.bloque-info{
+    background: #31383F;
+    box-shadow: inset 0 15px 15px grey;
+}
+.sobreMi{
+    margin: 0 10%;
+    padding: 40px 0;
+}
+.titulo{
+    font-size: 2em;
+    margin-top: 0;
+}
+.sobreMi p{
+    font-size: 30px;
+    margin: 0 10% 0 0;
+}
+.bloque-habilidades{
+    margin: 0 10%;
+    padding: 40px 0;
+}
+.bloque-habilidades ul{
+    display: inline-block;
+    /*padding-inline-start: 0;*/
+}
+.listas-habilidades{
+    width: 50%;
+    margin: 0 auto;
+    border: 5px solid #000000;
+    border-radius: 10px;
+    transition: 0.5s;
+}
+.listas-habilidades:hover{
+    box-shadow: 0 0 25px #000000;
+    backdrop-filter: blur(30px);
+}
+.tecnologias{
+    margin-right: 30%;
+}
+.habilidades{
+    color: #FFFFFF;
+    font-size: 25px;
+    font-weight: bold;
+    text-decoration: none;
+}
+.habilidades::marker{
+    content: "☑";
+    color: green;
+}
