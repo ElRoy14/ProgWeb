@@ -1,0 +1,31 @@
+<DOCTYPE html!>
+
+<html lang="es">
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <main>
+            <h1>Calcu<span>ladora</span></h1>
+            <div class="container">
+                <div class="screen" id="screen" ></div>
+                <div class="entry">
+                    <label for="f-operand" class="operand"
+                    >1er. Número<input type="number" id="f-operand" class="operand"></label><br>
+                    <label for="s-operand" class="operand"
+                    >2do. Número<input type="number" id="s-operand" class="operand"></label>
+                    <br>
+                    <select id="operator" class="operator">
+                        <option value="Suma">Suma</option>
+                        <option value="Resta">Resta</option>
+                        <option value="Multiplicación">Multiplicación</option>
+                        <option value="División">División</option>
+                    </select>
+                    <button id="btn-calculate" class="btn-calculate">Calcular</button>
+                    <button id="btn-clear" class="btn-clear">C</button>
+                </div>
+            </div>
+        </main>
+        <script src="index.js"></script>
+    </body>
+</html>
